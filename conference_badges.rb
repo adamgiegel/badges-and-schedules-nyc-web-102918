@@ -22,3 +22,5 @@ end
 
 def printer
   batch_badge_creator.each do |i|
+puts i
+end
