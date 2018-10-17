@@ -11,4 +11,10 @@ return newArr
 end
 
 def assign_rooms(array)
-  
+  room = 1 
+  newArr = []
+  array.each do |i|
+  newArr.push("Hello, #{i}! You'll be assigned to room #{room}!")
+  room ++
+end
+end
