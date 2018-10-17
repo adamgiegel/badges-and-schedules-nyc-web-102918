@@ -1,2 +1,3 @@
-def conference_badges(array)
-  array.each do |
+def badge_maker(name)
+  returns "Hello, my name is #{name}."
+end 
